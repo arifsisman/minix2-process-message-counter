@@ -51,10 +51,12 @@ the array and call it when the F4 key is hit.
 <img src="screenshots/keyboard.c_printList.png" width="600" />
 <br/>
 keyboard.c printList function
+</p>
 
+<p align="center">
 <img src="screenshots/keyboard.c_printList_call.png" width="600" />
 <br/>
-keyboard.c printList on F4
+keyboard.c printList call on F4
 </p>
 
 After all these steps I have recompiled the OS in usr/src/tools with “make hdboot”
