@@ -20,6 +20,7 @@ Then I have created an array of structs which size of 60 in glo.h.
 
 <p align="center">
     <img src="screenshots/glo.h_variables.png" width="600" />
+    <br/>
     glo.h Variables
 </p>
 
@@ -29,6 +30,7 @@ In usr/src/kernel/proc.c I have created a function named addList(int src,int dst
 
 <p align="center">
     <img src="screenshots/proc.c_addList.png" width="600" />
+    <br/>
     proc.c addList function
 </p>
 
@@ -38,16 +40,20 @@ psource and dest parameters which dest already exists in mini\*send function.
 
 <p align="center">
     <img src="screenshots/proc.c_addList_call.png" width="600" />
+    <br/>
     proc.c addList call in mini_send  
 </p>
 
 Finally, I have modified usr/src/kernel/keyboard.c. I have added a function to print
 the array and call it when the F4 key is hit.
+
 <p align="center">
 <img src="screenshots/keyboard.c_printList.png" width="600" />
+<br/>
 keyboard.c printList function
 
 <img src="screenshots/keyboard.c_printList_call.png" width="600" />
+<br/>
 keyboard.c printList on F4
 </p>
 
@@ -55,9 +61,9 @@ After all these steps I have recompiled the OS in usr/src/tools with “make hdb
 
 <p align="center">
     <img src="screenshots/process_message_counter_table.png" width="600" />
+    <br/>
     Process Message Counter Table
 </p>
-
 
 ## 3.REFERENCES
 
